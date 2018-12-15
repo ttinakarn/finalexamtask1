@@ -12,7 +12,7 @@ var cors = require('cors');
 app.use(cors());
 
 app.get('/', function (req, res){
-    res.send('Express is running');
+    res.send('Final exam task1 - 5930213054 Tinakarn Janthong');
 });
 
 app.get('/api/products/', db.getAllProducts);
